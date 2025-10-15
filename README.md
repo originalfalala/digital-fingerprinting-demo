@@ -44,11 +44,21 @@ Generate sample data:
 
 python generate_logs.py
 
+quick inspection of user_logs.csv:
+
+python explore_logs.py
+
+convert logs:
+
+python create_features.py
 
 Train model & detect anomalies:
 
-python train_model.py
+python detect_anomalies.py
 
+simple matplotlib scatter plot of anomaly scores (static):
+
+python visualize_anomalies.py
 
 Launch dashboard:
 
